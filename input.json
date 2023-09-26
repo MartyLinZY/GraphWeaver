@@ -2,83 +2,83 @@
     "nodes": [
         {
             "id": "CassandraDaemon.java",
-            "suspicion": 0.5
+            "suspicion": 0.3
         },
         {
             "id": "YamlConfigurationLoader.java",
-            "suspicion": 0.5
+            "suspicion": 0.3
         },
         {
             "id": "DatabaseDescriptor.java",
-            "suspicion": 0.5
+            "suspicion": 0.3
         },
         {
             "id": "CLibrary.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "CacheService.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "ColumnFamilyStore.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "Memtable.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "CommitLog.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "StorageService.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "SystemKeyspace.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "MessagingService.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "MigrationManager.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "DefsTables.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "CompactionTask.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "Server.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "ThriftServer.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "TServerCustomFactory.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "FBUtilities.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "MeteredFlusher.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         },
         {
             "id": "Gossiper.java",
-            "suspicion": 0.5
+            "suspicion": 0.7
         }
     ],
     "relations": [
