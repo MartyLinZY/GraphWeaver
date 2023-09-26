@@ -1,0 +1,1522 @@
+{
+    "nodes": [
+        {
+            "id": "CassandraDaemon.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "YamlConfigurationLoader.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "DatabaseDescriptor.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "CLibrary.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "CacheService.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "ColumnFamilyStore.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "Memtable.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "CommitLog.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "StorageService.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "SystemKeyspace.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "MessagingService.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "MigrationManager.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "DefsTables.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "CompactionTask.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "Server.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "ThriftServer.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "TServerCustomFactory.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "FBUtilities.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "MeteredFlusher.java",
+            "suspicion": 0.5
+        },
+        {
+            "id": "Gossiper.java",
+            "suspicion": 0.5
+        }
+    ],
+    "relations": [
+        {
+            "from": "CassandraDaemon.java",
+            "to": "YamlConfigurationLoader.java"
+        },
+        {
+            "from": "YamlConfigurationLoader.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "YamlConfigurationLoader.java"
+        },
+        {
+            "from": "YamlConfigurationLoader.java",
+            "to": "YamlConfigurationLoader.java"
+        },
+        {
+            "from": "YamlConfigurationLoader.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CLibrary.java"
+        },
+        {
+            "from": "CLibrary.java",
+            "to": "CassandraDaemon.java"
+        },
+        {
+            "from": "CassandraDaemon.java",
+            "to": "CacheService.java"
+        },
+        {
+            "from": "CacheService.java",
+            "to": "CacheService.java"
+        },
+        {
+            "from": "CacheService.java",
+            "to": "CacheService.java"
+        },
+        {
+            "from": "CacheService.java",
+            "to": "CacheService.java"
+        },
+        {
+            "from": "CacheService.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "DatabaseDescriptor.java"
+        },
+        {
+            "from": "DatabaseDescriptor.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CommitLog.java"
+        },
+        {
+            "from": "CommitLog.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "SystemKeyspace.java"
+        },
+        {
+            "from": "SystemKeyspace.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "YamlConfigurationLoader.java"
+        },
+        {
+            "from": "YamlConfigurationLoader.java",
+            "to": "MessagingService.java"
+        },
+        {
+            "from": "MessagingService.java",
+            "to": "YamlConfigurationLoader.java"
+        },
+        {
+            "from": "YamlConfigurationLoader.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "MigrationManager.java"
+        },
+        {
+            "from": "MigrationManager.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "Server.java"
+        },
+        {
+            "from": "Server.java",
+            "to": "ThriftServer.java"
+        },
+        {
+            "from": "ThriftServer.java",
+            "to": "ThriftServer.java"
+        },
+        {
+            "from": "ThriftServer.java",
+            "to": "TServerCustomFactory.java"
+        },
+        {
+            "from": "TServerCustomFactory.java",
+            "to": "ThriftServer.java"
+        },
+        {
+            "from": "ThriftServer.java",
+            "to": "MigrationManager.java"
+        },
+        {
+            "from": "MigrationManager.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MigrationManager.java"
+        },
+        {
+            "from": "MigrationManager.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "DefsTables.java"
+        },
+        {
+            "from": "DefsTables.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "FBUtilities.java"
+        },
+        {
+            "from": "FBUtilities.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "MeteredFlusher.java"
+        },
+        {
+            "from": "MeteredFlusher.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "ColumnFamilyStore.java"
+        },
+        {
+            "from": "ColumnFamilyStore.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "Memtable.java"
+        },
+        {
+            "from": "Memtable.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "CompactionTask.java"
+        },
+        {
+            "from": "CompactionTask.java",
+            "to": "ThriftServer.java"
+        },
+        {
+            "from": "ThriftServer.java",
+            "to": "Server.java"
+        },
+        {
+            "from": "Server.java",
+            "to": "Gossiper.java"
+        },
+        {
+            "from": "Gossiper.java",
+            "to": "StorageService.java"
+        },
+        {
+            "from": "StorageService.java",
+            "to": "MessagingService.java"
+        },
+        {
+            "from": "MessagingService.java",
+            "to": "MessagingService.java"
+        }
+    ]
+}

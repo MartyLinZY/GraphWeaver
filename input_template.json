@@ -1,0 +1,11 @@
+{
+    "nodes": [
+        {"id": "methodA", "suspicion": 0.2},
+        {"id": "methodB", "suspicion": 0.5},
+        {"id": "methodC", "suspicion": 0.3}
+    ],
+    "relations": [
+        {"from": "methodA", "to": "methodB"},
+        {"from": "methodB", "to": "methodC"}
+    ]
+}
