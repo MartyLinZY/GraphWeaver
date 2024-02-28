@@ -99,5 +99,6 @@ def log2json():
         json.dump(json_structure_final, json_file, indent=4)
 
 
+
 if __name__ == "__main__":
     log2json()
